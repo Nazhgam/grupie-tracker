@@ -1,0 +1,38 @@
+.container{
+    width: 100%;
+    height: 1000px;
+      border: 2px;
+
+      text-align: center;
+
+   
+
+}
+
+h1{
+    font-style: italic;
+    color:rgb(243, 65, 11);
+
+}
+h3{
+    color:rgb(190, 10, 166);
+}
+body{
+    background-color: rgb(76, 235, 14);
+}
+h1:hover{
+    color:wheat;
+
+    font-weight: 1000px;
+    font-style: initial;
+}
+h3:hover{
+    color:midnightblue;
+    font-size:xx-large;
+    font-weight: bolder;
+    font-style: initial;
+}
+button:hover{
+    color:red;
+    background-color: black;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/index.css">
+    <title>Document</title>
+</head>
+<body>
+ <div class="container">
+    <h1>Name: {{.Name}}</h1>
+   
+  
+
+    <h2>Creation Date:  {{.CreationDate}}</h2>
+    <h2>first album: {{.FirstAlbum}}</h2><br>
+
+    <h2>Members:</h2>
+        {{range.Members}}
+ <h3>{{.}}</h3>
+{{end}}
+<h2>Location:</h2>
+{{range.Locations}}
+<h3>{{.}}</h3>
+{{end}}
+</div>
+<h2>Dates:</h2>
+{{range.Dates}}
+<h3>{{.}}</h3>
+{{end}}
+<form method="POST">
+<button type="submit " name="back" value="back" >GET BACK</button>
+</form>
+</body>
+</html>
